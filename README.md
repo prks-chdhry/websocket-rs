@@ -38,7 +38,7 @@ WebSocket applications use two fundamentally different communication patterns:
 
 📊 **[View Detailed Benchmarks](docs/BENCHMARKS.md)** - Comprehensive performance comparison with test methodology
 
-## ✨ What's New in v0.4.1
+## ✨ What's New in v0.4.2
 
 ### Changes
 - Fixed version number sync across all package files
@@ -175,7 +175,7 @@ connect(
 
 ```bash
 # Specify version (example for Linux x86_64, Python 3.12+)
-uv pip install https://github.com/coseto6125/websocket-rs/releases/download/v0.4.1/websocket_rs-0.4.1-cp312-abi3-linux_x86_64.whl
+uv pip install https://github.com/coseto6125/websocket-rs/releases/download/v0.4.2/websocket_rs-0.4.2-cp312-abi3-linux_x86_64.whl
 ```
 
 ### From Source

@@ -820,7 +820,7 @@ impl AsyncClientConnection {
                 }
                 Err(mpsc::error::TryRecvError::Empty) => {}
                 Err(mpsc::error::TryRecvError::Disconnected) => {
-                    return ready_fast_err(py, PyStopAsyncIteration::new_err("Connection closed"))
+                    return ready_fast_err(py, PyStopAsyncIteration::new_err("Connection closed"));
                 }
             }
         }
